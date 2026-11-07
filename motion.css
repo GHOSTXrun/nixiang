@@ -28,3 +28,6 @@
 @keyframes working-tick{from{opacity:.25}to{opacity:1}}
 @keyframes progress-current{from{opacity:.65}to{opacity:1}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.data-particle{display:none}}
+
+/* Supplied robot artwork, rendered unchanged inside a cropped CSS viewport. */
+.pixel-sprite.robot-sprite{width:58px;height:51px;background:none;clip-path:none;overflow:hidden;animation:robot-hover .8s ease-in-out infinite;image-rendering:pixelated}.pixel-sprite.robot-sprite:before{display:none}.robot-sprite img{position:absolute;width:88px;height:88px;max-width:none;left:-16px;top:-21px;pointer-events:none}.pixel-agent:has(.robot-sprite){filter:drop-shadow(0 0 6px #27d5ed55)}.pixel-agent:has(.robot-sprite)>span{margin-top:3px}@keyframes robot-hover{50%{transform:translateY(-4px) rotate(2deg)}}@media(prefers-reduced-motion:reduce){.pixel-sprite.robot-sprite{animation:none}}
