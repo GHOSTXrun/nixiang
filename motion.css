@@ -1,0 +1,30 @@
+/* Continuous machinery: rotation, path traffic, data refresh, and scan sweeps. */
+.workspace{overflow:clip}
+.sun{display:block;animation:studio-rotate 3s linear infinite;transform-origin:center}
+.loop-icon{display:inline-block;animation:studio-rotate .9s linear infinite}
+.avatar{position:relative}.avatar:after{content:'';position:absolute;inset:-5px;border:1px dashed #36d5ed88;border-radius:50%;animation:studio-rotate 7s linear infinite}
+.mini-visual{position:relative}
+.mini-visual:after{content:'';position:absolute;left:0;right:0;top:0;height:10px;background:linear-gradient(transparent,#46dcff15,transparent);border-bottom:1px solid #48e6ff33;animation:module-scan 1.7s linear infinite;animation-delay:var(--card-phase,0s);pointer-events:none}
+.orbital-ring{transform-origin:92px 26px;animation:studio-rotate 2s linear infinite;animation-delay:var(--phase,0s)}
+.diagram-network>circle:not(.data-particle){animation:node-pulse 1.1s ease-in-out infinite alternate;animation-delay:var(--phase,0s)}
+.diagram-flow path{stroke-dasharray:5 4;animation:wire-flow .7s linear infinite}
+.diagram-wave path:last-of-type{stroke-dasharray:18 4;animation:wire-flow .5s linear infinite}
+.diagram-code rect,.diagram-list rect,.diagram-bars rect{transform-box:fill-box;transform-origin:left center;animation:bar-refresh 1.2s ease-in-out infinite alternate;animation-delay:var(--bar-phase,0s)}
+.diagram-hex rect{animation:hex-refresh .9s steps(3) infinite alternate;animation-delay:var(--bar-phase,0s)}
+.data-particle{filter:drop-shadow(0 0 2px #41dfff)}
+.tool-card.active{animation:active-module .6s ease-in-out infinite alternate}
+.entry-output:after{content:'▌';color:#46ddf5;animation:blink .45s steps(2) infinite}.log-entry:not(:last-child) .entry-output:after{display:none}
+.working-dots{animation:working-tick .5s steps(3) infinite}.spinner{animation-duration:.8s}
+.pixel-sprite{animation-duration:.22s}.pixel-agent{transition:left .4s linear,top .4s linear;will-change:left,top}
+.terminal-panel:after{content:'';position:absolute;top:73px;left:0;right:0;bottom:67px;pointer-events:none;background:repeating-linear-gradient(transparent 0px,transparent 3px,#43d4ff03 4px);z-index:3}
+.segmented-progress i.filled{animation:progress-current 1s ease-in-out infinite alternate}.segmented-progress i.filled:nth-child(3n){animation-delay:-.6s}.segmented-progress i.filled:nth-child(3n+1){animation-delay:-.3s}
+@keyframes studio-rotate{to{transform:rotate(360deg)}}
+@keyframes module-scan{from{transform:translateY(-12px)}to{transform:translateY(65px)}}
+@keyframes node-pulse{from{opacity:.4}to{opacity:1;filter:drop-shadow(0 0 3px #55dfff)}}
+@keyframes wire-flow{to{stroke-dashoffset:-36}}
+@keyframes bar-refresh{from{transform:scaleX(.48);opacity:.4}to{transform:scaleX(1);opacity:1}}
+@keyframes hex-refresh{from{opacity:.2}to{opacity:1}}
+@keyframes active-module{from{box-shadow:0 0 9px #2ed7f520,inset 0 0 10px #2bd7f00a}to{box-shadow:0 0 22px #2ed7f560,inset 0 0 24px #2bd7f01f}}
+@keyframes working-tick{from{opacity:.25}to{opacity:1}}
+@keyframes progress-current{from{opacity:.65}to{opacity:1}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.data-particle{display:none}}
