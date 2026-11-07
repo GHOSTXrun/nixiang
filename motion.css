@@ -31,3 +31,6 @@
 
 /* Supplied robot artwork, rendered unchanged inside a cropped CSS viewport. */
 .pixel-sprite.robot-sprite{width:58px;height:51px;background:none;clip-path:none;overflow:hidden;animation:robot-hover .8s ease-in-out infinite;image-rendering:pixelated}.pixel-sprite.robot-sprite:before{display:none}.robot-sprite img{position:absolute;width:88px;height:88px;max-width:none;left:-16px;top:-21px;pointer-events:none}.pixel-agent:has(.robot-sprite){filter:drop-shadow(0 0 6px #27d5ed55)}.pixel-agent:has(.robot-sprite)>span{margin-top:3px}@keyframes robot-hover{50%{transform:translateY(-4px) rotate(2deg)}}@media(prefers-reduced-motion:reduce){.pixel-sprite.robot-sprite{animation:none}}
+
+/* REVYXO official robot branding. */
+.robot-brand{width:34px;height:34px;display:block;position:relative;overflow:hidden;flex-shrink:0}.robot-brand img{position:absolute;width:60px;height:60px;max-width:none;left:-12px;top:-14px;image-rendering:pixelated}.robot-avatar{overflow:visible;background:radial-gradient(circle,#153e50,#09131c);position:relative}.robot-avatar img{position:absolute;max-width:none;width:105px;height:105px;left:-20px;top:-20px;image-rendering:pixelated}.wordmark{letter-spacing:1.5px}@media(max-width:1050px){.robot-avatar img{width:85px;height:85px;left:-17px;top:-17px}}

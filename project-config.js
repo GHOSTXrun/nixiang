@@ -1,5 +1,5 @@
 // Set only verified official project values. Empty values leave links disabled.
-window.UNBUILD_CONFIG = Object.freeze({
+window.REVYXO_CONFIG = Object.freeze({
   contractAddress: '',
   pumpUrl: '',
   xUrl: '',

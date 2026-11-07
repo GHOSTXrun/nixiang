@@ -1,26 +1,26 @@
-UNBUILD — Launch kit
+REVYXO — Launch kit
 
-项目名称 / Name: UNBUILD
-拟用代号 / Proposed ticker: UNBUILD
+项目名称 / Name: REVYXO
+拟用代号 / Proposed ticker: REVYXO
 一句话: AI builds everything. We take it apart.
 
 Pump.fun 简介 / Description:
-UNBUILD is the reverse side of AI. Inspired by reverse engineering, we turn black boxes into internet culture. Inspect. Understand. Remix. Share. A community concept for curious builders and meme makers. Explore our interactive studio. The studio is a visual demo, not a live reverse-engineering service.
+REVYXO is the reverse side of AI. Inspired by reverse engineering, we turn black boxes into internet culture. Inspect. Understand. Remix. Share. A community concept for curious builders and meme makers. Explore our interactive studio. The studio is a visual demo, not a live reverse-engineering service.
 
 X 简介 / Bio:
-AI builds everything. We take it apart. The reverse side of AI. Inspect → understand → remix → share. $UNBUILD | Solana.
+AI builds everything. We take it apart. The reverse side of AI. Inspect → understand → remix → share. $REVYXO | Solana.
 
 首发帖 / Launch post draft:
 Everyone is building the next big thing.
 We opened the black box.
-Meet UNBUILD — the reverse side of AI.
+Meet REVYXO — the reverse side of AI.
 Inspect. Understand. Remix. Share.
 Explore the studio: [VERIFIED WEBSITE]
 Official contract: [PUBLISH ONLY AFTER CREATION]
 What should we take apart next?
 
 置顶帖 / Pinned post draft:
-UNBUILD / official links
+REVYXO / official links
 Website: [VERIFIED WEBSITE]
 Pump.fun: [VERIFIED TOKEN PAGE]
 CA: [EXACT CONTRACT ADDRESS]
@@ -29,10 +29,10 @@ Telegram: [OFFICIAL COMMUNITY]
 The studio is an interactive frontend demonstration. No investment returns or revenue rights are promised.
 
 社区欢迎语:
-Welcome to UNBUILD. Stay curious. Share a black box, a teardown or a meme. Official project links and the complete contract address will be pinned here once published. Admins should never ask for your seed phrase or private key.
+Welcome to REVYXO. Stay curious. Share a black box, a teardown or a meme. Official project links and the complete contract address will be pinned here once published. Admins should never ask for your seed phrase or private key.
 
 视觉资产:
-assets/logo.svg + logo.png: 1024×1024 头像
+assets/logo.svg + logo.png: 1254×1254 头像
 assets/banner.svg + banner.png: 1500×500 横幅
 assets/share.png: 1200×630 分享图
 PNG 文件为同一矢量设计的浏览器渲染输出。
