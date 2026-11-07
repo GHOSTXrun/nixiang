@@ -2,7 +2,7 @@
 window.REVYXO_CONFIG = Object.freeze({
   contractAddress: '',
   pumpUrl: '',
-  xUrl: '',
+  xUrl: 'https://x.com/REVYXOlab',
   telegramUrl: '',
   websiteUrl: ''
 });
